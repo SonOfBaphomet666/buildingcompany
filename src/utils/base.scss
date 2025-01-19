@@ -1,0 +1,40 @@
+$white: #ffffff;
+$dr-White: #f8fafc;
+$cold-blue: #d9eafd;
+$light-grey: #bcccdc;
+$grey: #9aa6b2;
+$black: #000000;
+
+//TEXT
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+
+p {
+  font-family: Lato;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  
+}

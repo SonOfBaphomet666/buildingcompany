@@ -1,0 +1,19 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  &__box {
+    margin-top: 25px;
+    max-width: 1440px;
+    .numberBox {
+      margin-top: 20px;
+    }
+  }
+  &__mapBox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .map {
+      max-width: 500px;
+      max-height: 500px;
+    }
+  }
+}

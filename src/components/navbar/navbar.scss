@@ -1,0 +1,14 @@
+.navbar {
+  background-color: $dr-White;
+  .me-auto {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-right: 0 !important;
+    margin-left: auto;
+    .link {
+      font-family: Montserrat;
+    }
+  }
+  
+}
