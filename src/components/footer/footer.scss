@@ -24,29 +24,7 @@ footer {
   }
 }
 
-.dropdown {
-  width: 100px;
-  height: 50px;
-} 
-.transparent-button {
-  width: 80px;
-  height: 25px;
-  background-color: transparent;
-  border: none;
-  color: $black;
-  &:hover {
-    background-color: transparent;
-    color: $black;
-  }
-  &:active {
-    background-color: transparent; 
-  }
-}
 
-.dropdown:hover .dropdown-menu {
-  display: block; 
-  color: $black;
-}
 
 
 

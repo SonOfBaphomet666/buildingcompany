@@ -1,10 +1,10 @@
 import { YMaps, Map } from "@pbe/react-yandex-maps";
 import Hero from "../../components/hero/hero";
 const Contact = () => {
-  const defaultState = {
-    center: [55.751574, 37.573856],
-    zoom: 5,
-  };
+  // const defaultState = {
+  //   center: [55.751574, 37.573856],
+  //   zoom: 5,
+  // };
   return (
     <>
       <Hero />
@@ -23,7 +23,10 @@ const Contact = () => {
           <div className="contact__mapBox">
             <YMaps>
               <h3>Как нас найти</h3>
-              <Map className="map" defaultState={defaultState} />
+              <Map
+                defaultState={{ center: [55.75, 37.57], zoom: 9 }}
+               
+              />
             </YMaps>
           </div>
         </div>

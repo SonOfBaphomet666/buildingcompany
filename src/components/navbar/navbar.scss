@@ -6,9 +6,29 @@
     width: 400px;
     margin-right: 0 !important;
     margin-left: auto;
+    align-items: center;
     .link {
       font-family: Montserrat;
     }
   }
+}
+
+.dropdown-menu {
+  &:hover {
+    display: block;
+  }
   
+}
+
+.nav-link {
+  padding: 0;
+  
+}
+.dropdown-toggle {
+  padding: 0;
+  border: none;
+
+  &:after {
+    content: none;
+  }
 }

@@ -6,6 +6,7 @@ import Contact from "./pages/contact/contact";
 import Footer from "./components/footer/footer";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { APP_ROUTES } from "./utils/constant";
+import Certificate from "./pages/certificate/certificate";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path={APP_ROUTES.HOME} element={<Home />} />
           <Route path={APP_ROUTES.ABOUT} element={<About />} />
+          <Route path={APP_ROUTES.CERTIFICATE} element={<Certificate />} />
           <Route path={APP_ROUTES.CONTACT} element={<Contact />} />
         </Routes>
         <Footer />
