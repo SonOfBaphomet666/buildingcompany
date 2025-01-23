@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "./ImageZoom.css";
+import "./ImageZoom.scss";
+import { CloseButton } from "react-bootstrap";
 
 
 const ImageZoom = ({ src, alt }) => {
@@ -14,25 +15,21 @@ const ImageZoom = ({ src, alt }) => {
   };
 
   return (
-    <div className="boxImg">
-      <img
+    <div className="certBox">
+      <img className="certBox__img"
         src={src}
         alt={alt}
         onClick={openModal}
-        style={{
-          cursor: "pointer",
-          width: "200px", // Исходный размер
-          transition: "width 0.3s ease",
-        }}
       />
 
       {isZoomed && (
         <div className="modal" onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <img src={src} alt={alt} style={{ width: "100%" }} />
-            <button className="close-button" onClick={closeModal}>
+          <div className="modal__content" onClick={(e) => e.stopPropagation()}>
+            <img src={src} alt={alt}  />
+            {/* <button className="close-button" onClick={closeModal}>
               Закрыть
-            </button>
+            </button> */}
+            <CloseButton onClick={closeModal}/>
           </div>
         </div>
       )}

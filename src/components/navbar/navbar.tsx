@@ -12,7 +12,7 @@ const NavBar = () => {
       <Navbar>
         <Container>
           <Navbar.Brand>
-            <p className="link">Logo</p>
+            <img className="logo" src="/src/assets/logo.png" />
           </Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to={APP_ROUTES.HOME}>
@@ -25,8 +25,16 @@ const NavBar = () => {
                 </p>
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                <Dropdown.Item ><Nav.Link as={Link} to={APP_ROUTES.ABOUT}>Готовые объекты</Nav.Link></Dropdown.Item>
-                <Dropdown.Item ><Nav.Link as={Link} to={APP_ROUTES.CERTIFICATE}>Сертификаты</Nav.Link></Dropdown.Item>
+                <Dropdown.Item>
+                  <Nav.Link as={Link} to={APP_ROUTES.ABOUT}>
+                    Готовые объекты
+                  </Nav.Link>
+                </Dropdown.Item>
+                <Dropdown.Item>
+                  <Nav.Link as={Link} to={APP_ROUTES.CERTIFICATE}>
+                    Сертификаты
+                  </Nav.Link>
+                </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             <Nav.Link as={Link} to={APP_ROUTES.CONTACT}>

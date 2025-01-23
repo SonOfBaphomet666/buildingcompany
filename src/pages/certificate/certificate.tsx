@@ -1,4 +1,4 @@
-import ImageZoom from "../../components/imageZoom";
+import ImageZoom from "../../components/imageZoom/imageZoom";
 const Certificate = () => {
   return (
     <>

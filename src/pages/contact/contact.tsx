@@ -12,12 +12,14 @@ const Contact = () => {
         <div className="contact__box">
           <h1 className="title">Контакты</h1>
           <div className="numberBox">
-            <p>+7 999 999 99 99</p>
-            <p>+7 999 999 99 99</p>
-            <p>info@strong-montage.ru</p>
+            <p><b>Генеральный директор:</b> Ванданов Жаргал Баторович</p>
             <p>
-              115408, г. Москва, ул. Братеевская, д. 18, к. 3, 1-й этаж, пом VI,
-              комната 1.
+              <b>Номер телефона: </b> +7 (495) 230-21-10
+            </p>
+            <p><b>Email:</b> zh.vandanov@bkigroup.ru</p>
+            <p>
+            <b>Адрес:</b> 115201, г. Москва, Старокаширское шоссе, д.2, корп.2, эт. 3, пом.
+              I, ком. 13.
             </p>
           </div>
           <div className="contact__mapBox">

@@ -12,17 +12,19 @@
     }
   }
 }
+.logo {
+  width: 150px;
+  // height: 70px;
+}
 
 .dropdown-menu {
   &:hover {
     display: block;
   }
-  
 }
 
 .nav-link {
   padding: 0;
-  
 }
 .dropdown-toggle {
   padding: 0;
