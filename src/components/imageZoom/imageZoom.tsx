@@ -2,8 +2,12 @@ import { useState } from "react";
 import "./ImageZoom.scss";
 import { CloseButton } from "react-bootstrap";
 
+interface btnProps {
+  src: string;
+  alt: string;
+}
 
-const ImageZoom = ({ src, alt }) => {
+const ImageZoom = ({ src, alt }: btnProps) => {
   const [isZoomed, setIsZoomed] = useState(false);
 
   const openModal = () => {
@@ -16,20 +20,13 @@ const ImageZoom = ({ src, alt }) => {
 
   return (
     <div className="certBox">
-      <img className="certBox__img"
-        src={src}
-        alt={alt}
-        onClick={openModal}
-      />
+      <img className="certBox__img" src={src} alt={alt} onClick={openModal} />
 
       {isZoomed && (
         <div className="modal" onClick={closeModal}>
           <div className="modal__content" onClick={(e) => e.stopPropagation()}>
-            <img src={src} alt={alt}  />
-            {/* <button className="close-button" onClick={closeModal}>
-              Закрыть
-            </button> */}
-            <CloseButton onClick={closeModal}/>
+            <img src={src} alt={alt} />
+            <CloseButton onClick={closeModal} />
           </div>
         </div>
       )}

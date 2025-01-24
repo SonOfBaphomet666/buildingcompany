@@ -3,11 +3,27 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa6";
 import { PiMedalFill } from "react-icons/pi";
 import Hero from "../../components/hero/hero";
+import PopUp from "../../components/popUp/popUp";
+
+import { useState } from "react";
 const Home = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const [selectedBuilding, setSelectedBuilding] = useState(null);
+
+  const handleSlideClick = (project: Building) => {
+    setSelectedBuilding(project);
+    setIsOpen(true);
+  };
   return (
     <>
       <Hero />
       <section className="skills">
+        <button className="primaryBtn" onClick={() => setIsOpen(true)}>
+          Open Modal
+        </button>
+        {isOpen && (
+          <PopUp setIsOpen={setIsOpen} text={"gau"} description="HUIIIII" />
+        )}
         <div className="skills__icons">
           <div className="item1">
             <FaClock className="icon" />
@@ -61,13 +77,25 @@ const Home = () => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="/src/assets/buidling/atom.jpeg" className="imgSlide d-block w-100" alt="..." />
+                <img
+                  src="/src/assets/buidling/atom.jpeg"
+                  className="imgSlide d-block w-100"
+                  alt="..."
+                />
               </div>
               <div className="carousel-item">
-                <img src="/src/assets/buidling/alkon2!!!.jpg" className="imgSlide d-block w-100" alt="..." />
+                <img
+                  src="/src/assets/buidling/alkon2!!!.jpg"
+                  className="imgSlide d-block w-100"
+                  alt="..."
+                />
               </div>
               <div className="carousel-item">
-                <img src="/src/assets/buidling/metropolis.jpg" className="imgSlide d-block w-100" alt="..." />
+                <img
+                  src="/src/assets/buidling/metropolis.jpg"
+                  className="imgSlide d-block w-100"
+                  alt="..."
+                />
               </div>
             </div>
             <button
