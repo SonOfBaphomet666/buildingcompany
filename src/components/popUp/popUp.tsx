@@ -2,24 +2,25 @@ import { RiCloseLine } from "react-icons/ri";
 import { Building } from "../../pages/about/about";
 
 interface PopUpProps {
-  project: Building;
-  onClick: () => void;
+  project: Building | null;
+  onClose: () => void;
 }
 
-const PopUp = ({ onClick, project }: PopUpProps) => {
-
-  
+const PopUp = ({ project, onClose }: PopUpProps) => {
+  if (!project) {
+    return null;
+  }
   return (
     <>
-      <div className="darkBG" onClick={onClick} />
+      <div className="darkBG" onClick={onClose} />
       <div className="centered">
         <div className="modal">
           <div className="modalHeader"></div>
-          <button className="closeBtn" onClick={onClick}>
+          <button className="closeBtn" onClick={onClose}>
             <RiCloseLine />
           </button>
           <div className="modalContent"></div>
-          <p>{project.date}</p>
+          <p>{project.name}</p>
           <div className="modalActions">
             <div className="actionsContainer"></div>
           </div>
@@ -28,4 +29,5 @@ const PopUp = ({ onClick, project }: PopUpProps) => {
     </>
   );
 };
+
 export default PopUp;

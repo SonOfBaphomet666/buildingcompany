@@ -1,0 +1,56 @@
+[
+    {
+        "imgSrc": "/src/assets/buidling/alkon2!!!.jpg",
+        "name": "Алкон 2",
+        "description": "Alkon 2 this is ...",
+        "text": "Alkon asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/campus!!!.jpeg",
+        "name": "Кампус",
+        "description": "Кампус this is ...",
+        "text": "Кампус asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/atom.jpeg",
+        "name": "Атом",
+        "description": "Атом this is ...",
+        "text": "Атом asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/skolkovo2.jpeg",
+        "name": "Сколково",
+        "description": "Сколково this is ...",
+        "text": "Сколково asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/centerSambo.jpeg",
+        "name": "Самбо",
+        "description": "Самбо this is ...",
+        "text": "Самбо asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/filiGrad.jpg",
+        "name": "ФилиГрад",
+        "description": "ФилиГрад this is ...",
+        "text": "ФилиГрад asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/infoWatch.jpg",
+        "name": "Инфо Вотч",
+        "description": "Инфо Вотч this is ...",
+        "text": "Инфо Вотч asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/intourist.jpg",
+        "name": "Интурист",
+        "description": "Интурист this is ...",
+        "text": "Интурист asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    },
+    {
+        "imgSrc": "/src/assets/buidling/terem!!!.jpg",
+        "name": "Терем",
+        "description": "Терем this is ...",
+        "text": "Терем asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+    }
+]
