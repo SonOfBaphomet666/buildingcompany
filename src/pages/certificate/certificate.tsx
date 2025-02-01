@@ -10,12 +10,10 @@ const Certificate = () => {
           <ImageZoom
             className="img"
             src="/src/assets/certificate/ЛицензияМЧС1.jpg"
-            alt={undefined}
           />
           <ImageZoom
             className="img"
             src="/src/assets/certificate/ЛицензияМЧС2.jpg"
-            alt={undefined}
           />
         </div>
       </div>

@@ -2,55 +2,72 @@
     {
         "imgSrc": "/src/assets/buidling/alkon2!!!.jpg",
         "name": "Алкон 2",
-        "description": "Alkon 2 this is ...",
-        "text": "Alkon asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "description": [
+            "Система оповещения и управления эвакуацией о пожаре",
+            "Система контроля и управления доступом",
+            "Система охранной сигнализации",
+            "Структурированная кабельная система"
+        ],
+        "address": "г.Москва, Малая Калужская д.1"
     },
     {
         "imgSrc": "/src/assets/buidling/campus!!!.jpeg",
         "name": "Кампус",
-        "description": "Кампус this is ...",
-        "text": "Кампус asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "description": [
+            "Система оповещения и управления эвакуацией о пожаре",
+            "Система контроля и управления доступом",
+            "Система охранной сигнализации",
+            "Структурированная кабельная система"
+        ],
+        "address": "г.Москва, Малая Калужская д.1"
     },
     {
         "imgSrc": "/src/assets/buidling/atom.jpeg",
         "name": "Атом",
         "description": "Атом this is ...",
-        "text": "Атом asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "address": "г.Москва, Малая Калужская д.1"
     },
     {
         "imgSrc": "/src/assets/buidling/skolkovo2.jpeg",
         "name": "Сколково",
         "description": "Сколково this is ...",
-        "text": "Сколково asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "address": "г.Москва, Малая Калужская д.1"
     },
     {
         "imgSrc": "/src/assets/buidling/centerSambo.jpeg",
         "name": "Самбо",
         "description": "Самбо this is ...",
-        "text": "Самбо asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "address": "г.Москва, Малая Калужская д.1"
     },
     {
         "imgSrc": "/src/assets/buidling/filiGrad.jpg",
         "name": "ФилиГрад",
         "description": "ФилиГрад this is ...",
-        "text": "ФилиГрад asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "address": "г.Москва, Малая Калужская д.1"
     },
     {
         "imgSrc": "/src/assets/buidling/infoWatch.jpg",
-        "name": "Инфо Вотч",
-        "description": "Инфо Вотч this is ...",
-        "text": "Инфо Вотч asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "name": "Инфовотч",
+        "description": [
+            "Система контроля и управления доступом(СКУД)",
+            "Система охранного телевидения(СОТ)"
+        ],
+        "address": "г.Москва, ул.Верейская, д.29с134"
     },
     {
         "imgSrc": "/src/assets/buidling/intourist.jpg",
         "name": "Интурист",
-        "description": "Интурист this is ...",
-        "text": "Интурист asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "description": [
+            "Системы пожарной сигнализации Bosch(АПС)",
+            "Система газового пожаротушения(ГПТ)",
+            "Система оповещения и управления эвакуацией Bosch(СОУЭ)"
+        ],
+        "address": "г.Краснодар, ул.Красная, д.109"
     },
     {
         "imgSrc": "/src/assets/buidling/terem!!!.jpg",
         "name": "Терем",
-        "description": "Терем this is ...",
-        "text": "Терем asfas;dgfs;kgdasl';kgh'adklgad'fklgad"
+        "description": "Выполнение монтажных и пусконаладочных работ по системам: Автоматическая пожарная сигнализация; Система оповещения и управления эвакуацией о пожаре; Обратная связь с зонами безопасности маломобильных груп населения; Автоматизация и диспетчеризация; Система внутреннего электросбережения; Система наружного электроснабжения; Охранно-дератизационная система",
+        "address": "г.Москва, Ореховый бульвар, вл. 26, з/у 1"
     }
 ]
