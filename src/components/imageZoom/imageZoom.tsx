@@ -5,6 +5,7 @@ import { CloseButton } from "react-bootstrap";
 interface btnProps {
   src: string;
   alt: string;
+  className?: string;
 }
 
 const ImageZoom = ({ src, alt }: btnProps) => {
@@ -24,7 +25,10 @@ const ImageZoom = ({ src, alt }: btnProps) => {
 
       {isZoomed && (
         <div className="modalZoom" onClick={closeModal}>
-          <div className="modalZoom__content" onClick={(e) => e.stopPropagation()}>
+          <div
+            className="modalZoom__content"
+            onClick={(e) => e.stopPropagation()}
+          >
             <img src={src} alt={alt} />
             <CloseButton onClick={closeModal} />
           </div>

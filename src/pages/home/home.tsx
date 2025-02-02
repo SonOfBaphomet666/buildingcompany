@@ -2,7 +2,6 @@ import { PiClock } from "react-icons/pi";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa6";
 import { PiMedalFill } from "react-icons/pi";
-import { FaFireExtinguisher } from "react-icons/fa";
 import Hero from "../../components/hero/hero";
 
 const Home = () => {
