@@ -1,20 +1,32 @@
 .hero {
   display: flex;
   justify-content: center;
-  background-color: $grey;
   width: 100%;
   &__box {
-    max-width: 1440px;
-    height: 500px;
-    display: flex; // Добавлено
+    width: 1440px;
+    height: 700px;
+    display: flex;
     align-items: center;
-    .title {
-      width: 660px;
-    }
-    .img {
+    justify-content: center;
+    .titleBox {
+      background-color: #00000050;
+      color: $white;
+      position: relative;
       width: 500px;
-      height: 500px;
-      background-color: $black;
+      height: 200px;
+      margin-right: 330px;
+      border-radius: 30px;
+      text-align: center;
+      line-height: 28px;
+      padding: 10px;
+    }
+    .heroImg {
+      position: absolute;
+      background-size: cover;
+      width: 900px;
+      height: 600px;
+      z-index: 0;
+      background-position: center;
     }
   }
 }

@@ -1,7 +1,8 @@
-import { FaClock } from "react-icons/fa6";
+import { PiClock } from "react-icons/pi";
 import { FaPeopleGroup } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa6";
 import { PiMedalFill } from "react-icons/pi";
+import { FaFireExtinguisher } from "react-icons/fa";
 import Hero from "../../components/hero/hero";
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
       <section className="skills">
         <div className="skills__icons">
           <div className="item1">
-            <FaClock className="icon" />
+            <PiClock className="icon" />
             <p>Результаты в кратчайшие сроки</p>
           </div>
           <div className="item2">
@@ -28,6 +29,16 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* <section className="system">
+        <div className="system__title">
+          <h3>Мы устанавливаем</h3>
+        </div>
+        <div className="system__infoBox">
+          <div className="circle">
+            <FaFireExtinguisher className="icon2"/>
+          </div>
+        </div>
+      </section> */}
       <section className="slide">
         <div className="slide__title">
           <h3>Выполненные Работы</h3>
