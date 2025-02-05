@@ -1,12 +1,11 @@
 footer {
-  background-color: $grey;
+  background-color: $grey; // #4b607f
   display: flex;
   justify-content: center;
   .footerBox {
     display: flex;
     justify-content: space-around;
     width: 1440px;
-    // margin-top: 20px;
     padding: 20px;
     &__logoBox {
       display: flex;

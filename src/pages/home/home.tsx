@@ -3,6 +3,8 @@ import { FaPeopleGroup } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa6";
 import { PiMedalFill } from "react-icons/pi";
 import Hero from "../../components/hero/hero";
+import { Link } from "react-router-dom";
+import { APP_ROUTES } from "../../utils/constant";
 
 const Home = () => {
   return (
@@ -28,16 +30,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* <section className="system">
-        <div className="system__title">
-          <h3>Мы устанавливаем</h3>
-        </div>
-        <div className="system__infoBox">
-          <div className="circle">
-            <FaFireExtinguisher className="icon2"/>
-          </div>
-        </div>
-      </section> */}
       <section className="slide">
         <div className="slide__title">
           <h3>Выполненные Работы</h3>
@@ -120,6 +112,11 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="viewAllBox">
+        <Link to={APP_ROUTES.ABOUT}>
+          <button className="viewAllBox__btn">Посмотреть все работы</button>
+        </Link>
+      </div>
     </>
   );
 };

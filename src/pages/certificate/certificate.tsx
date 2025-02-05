@@ -8,12 +8,12 @@ const Certificate = () => {
         </div>
         <div className="cert__box">
           <ImageZoom
-            className="img"
+            className="img fakeCert"
             src="/src/assets/certificate/ЛицензияМЧС1.jpg"
             alt={"Картинка"}
           />
           <ImageZoom
-            className="img"
+            className="img fakeCert"
             src="/src/assets/certificate/ЛицензияМЧС2.jpg"
             alt={"Картинка"}
           />

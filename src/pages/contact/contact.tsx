@@ -10,7 +10,7 @@ const Contact = () => {
       <Hero />
       <div className="contact">
         <div className="contact__box">
-          <h1 className="title">Контакты</h1>
+          <h2 className="title">Контакты</h2>
           <div className="numberBox">
             <p><b>Генеральный директор:</b> Ванданов Жаргал Баторович</p>
             <p>

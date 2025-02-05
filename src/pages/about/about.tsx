@@ -2,7 +2,6 @@ import { useState } from "react";
 import PopUp from "../../components/popUp/popUp";
 import buildingsData from "../../assets/data/buildings.json";
 
-
 export interface Building {
   imgSrc: string;
   name: string;
@@ -10,7 +9,6 @@ export interface Building {
   text: string;
   address: string;
 }
-
 
 const About = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,17 +30,26 @@ const About = () => {
     <>
       <div className="about">
         <div className="about__titleBox">
-          <h1>Выполненные работы</h1>
+          <h2>Выполненные работы</h2>
         </div>
         <div className="about__imgBox">
           {buildingsData.map((building: any) => (
             <div className="box" key={building.name}>
+              <div className="middle">
+                <button
+                  className="middle__btn"
+                  onClick={() => handleSlideClick(building)}
+                >
+                  Подробно
+                </button>
+              </div>
               <img
                 src={building.imgSrc}
                 className="img"
                 alt={building.name}
                 onClick={() => handleSlideClick(building)}
               />
+
               <p className="par">{building.name}</p>
             </div>
           ))}

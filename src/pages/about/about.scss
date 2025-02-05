@@ -3,7 +3,6 @@
   justify-content: center;
   &__titleBox {
     margin-top: 30px;
-    margin-bottom: 30px;
     width: 350px;
   }
   &__buttonBox {
@@ -19,11 +18,41 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+
     .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
+      position: relative;
       .img {
         width: 350px;
         height: 200px;
+        transition: 0.5s ease;
+      }
+      .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        transition: 0.8s ease;
+        opacity: 0;
+        &__btn {
+          background-color: $background-mid;
+          color: $dr-White;
+          padding: 12px 20px;
+          z-index: 1;
+          border: none;
+          border-radius: 20px;
+        }
+      }
+      &:hover .img {
+        opacity: 0.3;
+      }
+      &:hover .middle {
+        opacity: 1;
       }
       .par {
         margin-bottom: 50px;
