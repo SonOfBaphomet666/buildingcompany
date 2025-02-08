@@ -9,11 +9,13 @@ import { IoMdArrowDropdown } from "react-icons/io";
 const NavBar = () => {
   return (
     <>
-      <Navbar>
-        <Container>
-          <Navbar.Brand>
-            <img className="logo" src="/src/assets/logo.png" />
-          </Navbar.Brand>
+      <Navbar bg="light" expand="md">
+      <Container>
+        <Navbar.Brand>
+          <img className="logo" src="/src/assets/logo.png" alt="Logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to={APP_ROUTES.HOME}>
               <p className="link">Главная</p>
@@ -21,19 +23,15 @@ const NavBar = () => {
             <Dropdown>
               <Dropdown.Toggle variant="second" id="dropdown-basic">
                 <p className="link">
-                  О компания <IoMdArrowDropdown />
+                  О компании <IoMdArrowDropdown />
                 </p>
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                <Dropdown.Item>
-                  <Nav.Link as={Link} to={APP_ROUTES.ABOUT}>
-                    Готовые объекты
-                  </Nav.Link>
+                <Dropdown.Item as={Link} to={APP_ROUTES.ABOUT}>
+                  Готовые объекты
                 </Dropdown.Item>
-                <Dropdown.Item>
-                  <Nav.Link as={Link} to={APP_ROUTES.CERTIFICATE}>
-                    Сертификаты
-                  </Nav.Link>
+                <Dropdown.Item as={Link} to={APP_ROUTES.CERTIFICATE}>
+                  Сертификаты
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
@@ -41,8 +39,9 @@ const NavBar = () => {
               <p className="link">Контакты</p>
             </Nav.Link>
           </Nav>
-        </Container>
-      </Navbar>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     </>
   );
 };

@@ -1,3 +1,4 @@
+// COLOR
 $white: #ffffff;
 $dr-White: #f8fafc;
 $cold-blue: #d9eafd;
@@ -6,6 +7,16 @@ $grey: #9aa6b2;
 $black: #000000;
 $background-light: rgba(27, 27, 27, 0.229);
 $background-mid: rgba(27, 27, 27, 0.503);
+
+// SCREEN SIZE
+$pc: 1280px;
+$tab-port: 1024px;
+$tab-port-middle: 820px;
+$tab-port-small: 768px;
+$phone-big: 430px;
+$phone: 414px;
+$phone-middle: 390px;
+$phone-small: 375px;
 
 //TEXT
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
@@ -27,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Montserrat;
+  font-family: Lato;
 }
 
 p {

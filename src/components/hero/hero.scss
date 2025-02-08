@@ -30,3 +30,58 @@
     }
   }
 }
+
+@media screen and (max-width: $tab-port-middle) {
+  .hero {
+    &__box {
+      width: 900px;
+      height: 500px;
+      .titleBox {
+        width: 350px;
+        height: 250px;
+        margin-right: 250px;
+      }
+      .heroImg {
+        width: 700px;
+        height: 500px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tab-port) {
+  .hero {
+    margin-top: 40px;
+    &__box {
+      width: 800px;
+      height: 450px;
+      .titleBox {
+        width: 300px;
+        height: 300px;
+        margin-right: 340px;
+      }
+      .heroImg {
+        width: 750px;
+        height: 450px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tab-port-small) {
+  .hero {
+    &__box {
+      width: 650px;
+      height: 400px;
+      .titleBox {
+        width: 320px;
+        height: 280px;
+        margin-right: 260px;
+      }
+      .heroImg {
+        width: 650px;
+        height: 400px;
+      }
+    }
+  }
+}

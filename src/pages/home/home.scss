@@ -99,3 +99,56 @@
     }
   }
 }
+
+@media screen and (max-width: $tab-port) {
+  .slide {
+    &__title {
+      width: 750px;
+    }
+    &__box {
+      width: 750px;
+      .imgSlide {
+        width: 750px !important;
+        height: 500px;
+      }
+    }
+  }
+  .skills {
+    &__icons {
+      max-width: 770px;
+      .item1,
+      .item2,
+      .item3,
+      .item4 {
+        flex: 1 1 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tab-port-middle) {
+  .slide {
+    &__title {
+      width: 900px;
+    }
+  }
+}
+
+@media screen and (max-width: $tab-port-small) {
+  .slide {
+    &__title {
+      width: 650px;
+    }
+    &__box {
+      width: 650px;
+      .imgSlide {
+        width: 650px !important;
+      }
+    }
+  }
+  .skills {
+    &__icons {
+      max-width: 650px;
+    }
+  }
+}

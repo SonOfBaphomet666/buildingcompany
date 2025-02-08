@@ -10,16 +10,9 @@ footer {
     &__logoBox {
       display: flex;
       align-items: center;
-      .logo {
-        width: 150px;
-        height: 90px;
-      }
     }
     &__about {
       max-width: 360px;
-    }
-
-    &__system {
     }
     &__contacts {
       max-width: 280px;
@@ -35,4 +28,21 @@ footer p {
 footer h5 {
   margin-top: 16px !important;
   margin-bottom: 16px !important;
+}
+
+@media screen and (max-width: $tab-port) {
+  footer {
+    .footerBox {
+      width: 940px;
+      &__system {
+        display: none;
+      }
+      &__about {
+        max-width: 360px;
+      }
+      &__contacts {
+        max-width: 280px;
+      }
+    }
+  }
 }

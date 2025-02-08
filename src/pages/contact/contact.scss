@@ -22,3 +22,31 @@
     }
   }
 }
+
+@media screen and (max-width: $tab-port) {
+  .contact {
+    &__box {
+      max-width: 750px;
+    }
+    &__mapBox {
+      .map {
+        margin-top: 20px;
+        width: 750px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tab-port) {
+  .contact {
+    &__box {
+      max-width: 650px;
+    }
+    &__mapBox {
+      .map {
+        margin-top: 20px;
+        width: 650px;
+      }
+    }
+  }
+}

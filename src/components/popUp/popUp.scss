@@ -11,9 +11,9 @@
 
 .centered {
   position: fixed;
-  top: 15%;
-  left: 24%;
-  transform: translate(-30%, -30%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .modal {
@@ -25,7 +25,7 @@
   z-index: 1000;
   background-color: $dr-White !important;
   border-radius: 6px;
-
+  position: relative;
   &__actions {
     text-align: center;
     margin-top: 20px;
