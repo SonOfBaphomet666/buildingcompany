@@ -1,11 +1,14 @@
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
 import Hero from "../../components/hero/hero";
+import useDocumentTitle from "../../components/dynamicTitle";
 const Contact = () => {
   const defaultState = {
     center: [55.661261, 37.627637],
     zoom: 16,
   };
+  useDocumentTitle("Контакты");
   return (
+    
     <>
       <Hero />
       <div className="contact">

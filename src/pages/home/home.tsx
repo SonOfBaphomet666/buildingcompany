@@ -5,8 +5,10 @@ import { PiMedalFill } from "react-icons/pi";
 import Hero from "../../components/hero/hero";
 import { Link } from "react-router-dom";
 import { APP_ROUTES } from "../../utils/constant";
+import useDocumentTitle from "../../components/dynamicTitle";
 
 const Home = () => {
+  useDocumentTitle("БКИ ГРУПП");
   return (
     <>
       <Hero />

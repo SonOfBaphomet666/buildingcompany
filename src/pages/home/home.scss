@@ -152,3 +152,42 @@
     }
   }
 }
+
+@media screen and (max-width: $phone-big) {
+  .slide {
+    &__title {
+      width: 400px;
+    }
+    &__box {
+      width: 400px;
+      .imgSlide {
+        width: 400px !important;
+      }
+    }
+  }
+  .skills {
+    &__icons {
+      max-width: 420px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone-middle) {
+  .slide {
+    &__title {
+      width: 350px;
+    }
+    &__box {
+      width: 350px;
+      .imgSlide {
+        width: 350px !important;
+        height: 300px;
+      }
+    }
+  }
+  .skills {
+    &__icons {
+      max-width: 380px;
+    }
+  }
+}

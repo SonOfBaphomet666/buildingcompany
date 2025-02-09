@@ -85,3 +85,52 @@
     }
   }
 }
+
+@media screen and (max-width: $phone-big) {
+  .hero {
+    &__box {
+      width: 400px;
+      height: 400px;
+      .titleBox {
+        width: 260px;
+        height: 50px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+      }
+      .titleBox h2 {
+        // color: $black;
+        font-size: 24px;
+      }
+      .titleBox p {
+        display: none;
+      }
+      .heroImg {
+        width: 400px;
+        height: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-middle) {
+  .hero {
+    &__box {
+      width: 350px;
+      height: 350px;
+      .titleBox {
+        width: 240px;
+        height: 50px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+      }
+      .titleBox h2 {
+        // color: $black;
+        font-size: 22px;
+      }
+      .heroImg {
+        width: 350px;
+        height: 280px;
+      }
+    }
+  }
+}

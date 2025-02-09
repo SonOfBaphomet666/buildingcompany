@@ -1,5 +1,7 @@
 import ImageZoom from "../../components/imageZoom/imageZoom";
+import useDocumentTitle from "../../components/dynamicTitle";
 const Certificate = () => {
+  useDocumentTitle("Сертификаты");
   return (
     <>
       <div className="cert">

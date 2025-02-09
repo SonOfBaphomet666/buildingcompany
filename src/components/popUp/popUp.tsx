@@ -16,10 +16,10 @@ const PopUp = ({ project, onClose }: PopUpProps) => {
       <div className="centered">
         <div className="modal">
           <div className="modal__actions">
+            <div className="modal__header">
+              <h3>{project.name}</h3>
+            </div>
             <img src={project.imgSrc} className="img" />
-          </div>
-          <div className="modal__header">
-            <h3>{project.name}</h3>
           </div>
           <button className="closeBtn" onClick={onClose}>
             <RiCloseLine />

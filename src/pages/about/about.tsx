@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PopUp from "../../components/popUp/popUp";
 import buildingsData from "../../assets/data/buildings.json";
+import useDocumentTitle from "../../components/dynamicTitle";
 
 export interface Building {
   imgSrc: string;
@@ -11,6 +12,7 @@ export interface Building {
 }
 
 const About = () => {
+  useDocumentTitle("Готовые работы")
   const [isOpen, setIsOpen] = useState(false);
   const [selectedBuilding, setSelectedBuilding] = useState<Building | null>(
     null
