@@ -38,10 +38,46 @@ footer h5 {
         display: none;
       }
       &__about {
-        max-width: 360px;
+        max-width: 300px;
       }
       &__contacts {
         max-width: 280px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tab-port-middle) {
+  footer {
+    .footerBox {
+      width: 940px;
+      &__about {
+        max-width: 270px;
+      }
+      &__contacts {
+        max-width: 230px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-big) {
+  footer {
+    .footerBox {
+      width: 400px;
+      padding: 10px;
+      &__logoBox {
+        width: 120px;
+        .logo {
+          width: 110px;
+        }
+      }
+      &__about {
+        // max-width: 170px;
+        display: none;
+      }
+      &__contacts {
+        max-width: 230px;
       }
     }
   }

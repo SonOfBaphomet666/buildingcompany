@@ -1,7 +1,8 @@
 .about {
   display: grid;
   justify-content: center;
-  // height: 1015px;
+  // min-height: 100vh;
+  height: 1110px;
   &__titleBox {
     margin-top: 60px;
     display: flex;
@@ -44,7 +45,7 @@
           background-color: $background-mid;
           color: $dr-White;
           padding: 12px 20px;
-          z-index: 1;
+          // z-index: 1;
           border: none;
           border-radius: 20px;
         }
@@ -65,5 +66,12 @@
 .about {
   &__imgBox {
     margin-bottom: 100px;
+  }
+}
+
+
+@media screen and (max-width: $tab-port) {
+  .about {
+    height: 100%;
   }
 }

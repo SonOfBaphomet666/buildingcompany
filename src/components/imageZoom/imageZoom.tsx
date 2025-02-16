@@ -29,7 +29,7 @@ const ImageZoom = ({ src, alt }: btnProps) => {
             className="modalZoom__content"
             onClick={(e) => e.stopPropagation()}
           >
-            <img src={src} alt={alt} />
+            <img className="certificate" src={src} alt={alt} />
             <CloseButton onClick={closeModal} />
           </div>
         </div>

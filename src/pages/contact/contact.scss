@@ -30,22 +30,49 @@
     }
     &__mapBox {
       .map {
-        margin-top: 20px;
         width: 750px;
+        height: 500px;
       }
     }
   }
 }
 
-@media screen and (max-width: $tab-port) {
+@media screen and (max-width: $tab-port-small) {
   .contact {
     &__box {
       max-width: 650px;
     }
     &__mapBox {
       .map {
-        margin-top: 20px;
         width: 650px;
+        height: 450px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-big) {
+  .contact {
+    &__box {
+      max-width: 400px;
+    }
+    &__mapBox {
+      .map {
+        width: 400px;
+        height: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-middle) {
+  .contact {
+    &__box {
+      max-width: 360px;
+    }
+    &__mapBox {
+      .map {
+        width: 360px;
       }
     }
   }

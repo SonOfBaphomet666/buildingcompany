@@ -16,4 +16,18 @@
   }
 }
 
+@media screen and (max-width: $phone-big) {
+  .cert {
+    &__box {
+      width: 400px;
+    }
+  }
+}
 
+@media screen and (max-width: $phone-middle) {
+  .cert {
+    &__box {
+      width: 365px;
+    }
+  }
+}

@@ -22,25 +22,56 @@
 
   &__content {
     position: relative;
-
-  //   .close-button {
-  //     position: absolute;
-  //     top: 10px;
-  //     right: 10px;
-  //     padding: 5px 10px;
-  //     cursor: pointer;
-  //     color: $black;
-  //   }
+    .certificate {
+      width: 650px;
+    }
   }
 }
 
 .btn-close {
   position: absolute;
-      top: 10px;
-      right: 10px;
-      padding: 5px 10px;
-      cursor: pointer;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
+@media screen and (max-width: 1024px) {
+  .modalZoom {
+    &__content {
+      .certificate {
+        width: 650px;
+      }
+    }
+  }
+}
 
+@media screen and (max-width: 820px) {
+  .modalZoom {
+    &__content {
+      .certificate {
+        width: 550px;
+      }
+    }
+  }
+}
 
+@media screen and (max-width: 430px) {
+  .modalZoom {
+    &__content {
+      .certificate {
+        width: 400px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .modalZoom {
+    &__content {
+      .certificate {
+        width: 360px;
+      }
+    }
+  }
+}

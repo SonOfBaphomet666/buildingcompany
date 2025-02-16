@@ -33,3 +33,11 @@
     content: none;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .navbar {
+    .me-auto {
+      width: 370px;
+    }
+  }
+}

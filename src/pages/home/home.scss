@@ -115,7 +115,7 @@
   }
   .skills {
     &__icons {
-      max-width: 770px;
+      max-width: 750px;
       .item1,
       .item2,
       .item3,
@@ -128,8 +128,8 @@
 
 @media screen and (max-width: $tab-port-middle) {
   .slide {
-    &__title {
-      width: 900px;
+    .imgSlide {
+      height: 400px;
     }
   }
 }
@@ -162,6 +162,7 @@
       width: 400px;
       .imgSlide {
         width: 400px !important;
+        height: 300px;
       }
     }
   }
@@ -181,13 +182,13 @@
       width: 350px;
       .imgSlide {
         width: 350px !important;
-        height: 300px;
+        height: 270px;
       }
     }
   }
   .skills {
     &__icons {
-      max-width: 380px;
+      max-width: 350px;
     }
   }
 }

@@ -2,26 +2,34 @@
   display: flex;
   justify-content: center;
   width: 100%;
+
+  &__titleBox {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
   &__box {
     width: 1440px;
-    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     .titleBox {
-      background-color: $background-light;
-      color: $white;
-      position: relative;
-      width: 500px;
-      height: 200px;
-      margin-right: 330px;
-      border-radius: 30px;
+      display: flex;
+      justify-content: space-between;
       text-align: center;
       line-height: 28px;
-      padding: 10px;
+      width: 900px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      &__par {
+        width: 660px;
+        line-height: 22px;
+        .bki {
+          margin-bottom: 15px;
+        }
+      }
     }
     .heroImg {
-      position: absolute;
       background-size: cover;
       width: 900px;
       height: 600px;
@@ -31,38 +39,19 @@
   }
 }
 
-@media screen and (max-width: $tab-port-middle) {
-  .hero {
-    &__box {
-      width: 900px;
-      height: 500px;
-      .titleBox {
-        width: 350px;
-        height: 250px;
-        margin-right: 250px;
-      }
-      .heroImg {
-        width: 700px;
-        height: 500px;
-      }
-    }
-  }
-}
-
 @media screen and (max-width: $tab-port) {
   .hero {
-    margin-top: 40px;
+    .heroImg {
+      width: 750px;
+      height: 500px;
+    }
     &__box {
-      width: 800px;
-      height: 450px;
+      width: 1024px;
       .titleBox {
-        width: 300px;
-        height: 300px;
-        margin-right: 340px;
-      }
-      .heroImg {
-        width: 750px;
-        height: 450px;
+        max-width: 750px;
+        &__par {
+          width: 600px;
+        }
       }
     }
   }
@@ -70,17 +59,21 @@
 
 @media screen and (max-width: $tab-port-small) {
   .hero {
-    &__box {
+    &__titleBox {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .heroImg {
       width: 650px;
       height: 400px;
+    }
+    &__box {
+      width: 768px;
       .titleBox {
-        width: 320px;
-        height: 280px;
-        margin-right: 260px;
-      }
-      .heroImg {
-        width: 650px;
-        height: 400px;
+        max-width: 650px;
+        &__par {
+          width: 550px;
+        }
       }
     }
   }
@@ -88,25 +81,20 @@
 
 @media screen and (max-width: $phone-big) {
   .hero {
-    &__box {
+    .heroImg {
       width: 400px;
-      height: 400px;
+      height: 300px;
+    }
+    &__box {
+      width: 430px;
       .titleBox {
-        width: 260px;
-        height: 50px;
-        margin-right: 100px;
-        margin-bottom: 20px;
-      }
-      .titleBox h2 {
-        // color: $black;
-        font-size: 24px;
-      }
-      .titleBox p {
-        display: none;
-      }
-      .heroImg {
-        width: 400px;
-        height: 300px;
+        max-width: 400px;
+        &__par {
+          width: 250px;
+          p {
+            text-align: justify;
+          }
+        }
       }
     }
   }
@@ -114,22 +102,14 @@
 
 @media screen and (max-width: $phone-middle) {
   .hero {
-    &__box {
+    .heroImg {
       width: 350px;
-      height: 350px;
+      height: 270px;
+    }
+    &__box {
+      width: 390px;
       .titleBox {
-        width: 240px;
-        height: 50px;
-        margin-right: 100px;
-        margin-bottom: 20px;
-      }
-      .titleBox h2 {
-        // color: $black;
-        font-size: 22px;
-      }
-      .heroImg {
-        width: 350px;
-        height: 280px;
+        max-width: 350px;
       }
     }
   }
