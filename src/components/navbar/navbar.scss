@@ -34,6 +34,14 @@
   }
 }
 
+@media screen and (max-width: 760px) {
+  .navbar {
+    .me-auto {
+      width: 100%;
+    }
+  }
+}
+
 @media screen and (max-width: 390px) {
   .navbar {
     .me-auto {

@@ -93,6 +93,36 @@
   }
 }
 
+@media screen and (max-width: $tab-port-tiny) {
+  .modal {
+    width: 620px;
+    height: 660px;
+    .img {
+      max-width: 550px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone-huge) {
+  .modal {
+    width: 540px;
+    height: 610px;
+    .img {
+      max-width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone-shovel) {
+  .modal {
+    width: 460px;
+    height: 570px;
+    .img {
+      max-width: 410px;
+    }
+  }
+}
+
 @media screen and (max-width: $phone-big) {
   .modal {
     width: 400px;

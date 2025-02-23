@@ -51,6 +51,62 @@
   }
 }
 
+@media screen and (max-width: $tab-port-tiny) {
+  .contact {
+    &__box {
+      max-width: 570px;
+    }
+    &__mapBox {
+      .map {
+        width: 570px;
+        height: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-huge) {
+  .contact {
+    &__box {
+      max-width: 500px;
+    }
+    &__mapBox {
+      .map {
+        width: 500px;
+        height: 300px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-shovel) {
+  .contact {
+    &__box {
+      max-width: 450px;
+    }
+    &__mapBox {
+      .map {
+        width: 450px;
+        height: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .contact {
+    &__box {
+      max-width: 390px;
+    }
+    &__mapBox {
+      .map {
+        width: 390px;
+        height: 300px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $phone-big) {
   .contact {
     &__box {

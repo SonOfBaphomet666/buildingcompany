@@ -16,10 +16,42 @@
   }
 }
 
+@media screen and (max-width: $tab-port-tiny) {
+  .cert {
+    &__box {
+      width: 550px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone-huge) {
+  .cert {
+    &__box {
+      width: 500px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone-shovel) {
+  .cert {
+    &__box {
+      width: 430px;
+    }
+  }
+}
+
 @media screen and (max-width: $phone-big) {
   .cert {
     &__box {
       width: 400px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone) {
+  .cert {
+    &__box {
+      width: 390px;
     }
   }
 }

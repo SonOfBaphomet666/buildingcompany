@@ -79,6 +79,78 @@
   }
 }
 
+@media screen and (max-width: $tab-port-tiny) {
+  .hero {
+    .heroImg {
+      width: 570px;
+      height: 350px;
+    }
+    &__box {
+      width: 570px;
+      .titleBox {
+        max-width: 570px;
+        &__par {
+          width: 300px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-huge) {
+  .hero {
+    .heroImg {
+      width: 500px;
+      height: 300px;
+    }
+    &__box {
+      width: 500px;
+      .titleBox {
+        max-width: 500px;
+        &__par {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-shovel) {
+  .hero {
+    .heroImg {
+      width: 450px;
+      height: 250px;
+    }
+    &__box {
+      width: 450px;
+      .titleBox {
+        max-width: 450px;
+        &__par {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .hero {
+    .heroImg {
+      width: 390px;
+      height: 300px;
+    }
+    &__box {
+      width: 390px;
+      .titleBox {
+        max-width: 390px;
+        &__par {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $phone-big) {
   .hero {
     .heroImg {

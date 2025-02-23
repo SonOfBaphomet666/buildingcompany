@@ -61,6 +61,29 @@ footer h5 {
   }
 }
 
+@media screen and (max-width: $phone-shovel) {
+  footer {
+    .footerBox {
+      max-width: 520px;
+      &__about {
+        display: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  footer {
+    .footerBox {
+      max-width: 430px;
+
+      &__contacts {
+        max-width: 150px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $phone-big) {
   footer {
     .footerBox {
