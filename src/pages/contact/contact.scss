@@ -121,7 +121,7 @@
   }
 }
 
-@media screen and (max-width: $phone-middle) {
+@media screen and (max-width: $iphone-14) {
   .contact {
     &__box {
       max-width: 360px;
@@ -129,6 +129,17 @@
     &__mapBox {
       .map {
         width: 360px;
+        height: 270px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-middle) {
+  .contact {
+    &__mapBox {
+      .map {
+        width: 350px;
       }
     }
   }

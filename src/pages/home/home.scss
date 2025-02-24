@@ -252,6 +252,26 @@
   }
 }
 
+@media screen and (max-width: $iphone-14) {
+  .slide {
+    &__title {
+      width: 360px;
+    }
+    &__box {
+      width: 360px;
+      .imgSlide {
+        width: 360px !important;
+        height: 250px;
+      }
+    }
+  }
+  .skills {
+    &__icons {
+      max-width: 360px;
+    }
+  }
+}
+
 @media screen and (max-width: $phone-middle) {
   .slide {
     &__title {

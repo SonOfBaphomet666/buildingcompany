@@ -133,6 +133,16 @@
   }
 }
 
+@media screen and (max-width: $iphone-14) {
+  .modal {
+    width: 380px;
+    height: 600px;
+    .img {
+      max-width: 340px;
+    }
+  }
+}
+
 @media screen and (max-width: $phone-middle) {
   .modal {
     width: 360px;

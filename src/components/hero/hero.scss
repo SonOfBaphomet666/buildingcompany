@@ -172,6 +172,21 @@
   }
 }
 
+@media screen and (max-width: $iphone-14) {
+  .hero {
+    .heroImg {
+      width: 360px;
+      height: 250px;
+    }
+    &__box {
+      width: 380px;
+      .titleBox {
+        max-width: 360px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $phone-middle) {
   .hero {
     .heroImg {
